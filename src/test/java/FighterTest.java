@@ -28,4 +28,12 @@ public class FighterTest {
         assertEquals(60, knight.getHealth());
         assertEquals(85, barbarian.getHealth());
     }
+    @Test
+    public void canKill () {
+        barbarian.attack(barbarian.getAttackItem(), knight);
+        barbarian.attack(barbarian.getAttackItem(), knight);
+        barbarian.attack(barbarian.getAttackItem(), knight);
+        barbarian.attack(barbarian.getAttackItem(), knight);
+        assertEquals(false, knight.getAlive());
+    }
 }
