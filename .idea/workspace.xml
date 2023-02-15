@@ -4,17 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f280ced-7fda-48a3-b4c2-4d1dd03b55b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codeclan/Main.java" afterDir="false" />
+    <list default="true" id="2f280ced-7fda-48a3-b4c2-4d1dd03b55b9" name="Changes" comment="Added initial character classes">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codeclan/behaviours/IAttack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codeclan/characters/AttackItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codeclan/characters/SpellType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codeclan/characters/WeaponType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codeclan/characters/magicians/Warlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codeclan/characters/magicians/Wizard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codeclan/creatures/Creature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FighterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MagiciansTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeclan/characters/Barbarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codeclan/characters/fighters/Barbarian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeclan/characters/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codeclan/characters/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeclan/characters/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codeclan/characters/Cleric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeclan/characters/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codeclan/characters/fighters/Dwarf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeclan/characters/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codeclan/characters/fighters/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeclan/characters/Warlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeclan/characters/Wizard.java" beforeDir="false" />
     </list>
     <list id="e1f715c0-6000-463e-b5a0-6bd6472de7a3" name="Changes by codeclanstudent" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeclan/characters/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codeclan/characters/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeclan/characters/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codeclan/characters/fighters/Dwarf.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,12 +36,22 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/main/java/com/codeclan/characters/fighters/Dwarf.java">
+      <ranges>
+        <range start1="0" end1="1" start2="0" end2="1" changelist="2f280ced-7fda-48a3-b4c2-4d1dd03b55b9" />
+        <range start1="2" end1="3" start2="2" end2="32" changelist="e1f715c0-6000-463e-b5a0-6bd6472de7a3" />
+      </ranges>
+    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -47,6 +69,43 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.All in FantasyLand">
+    <configuration name="All in FantasyLand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyLand" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FighterTest.canAttack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyLand" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FighterTest" />
+      <option name="METHOD_NAME" value="canAttack" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MagiciansTest.canAttackWithSpell" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyLand" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MagiciansTest" />
+      <option name="METHOD_NAME" value="canAttackWithSpell" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in FantasyLand" />
+        <item itemvalue="JUnit.MagiciansTest.canAttackWithSpell" />
+        <item itemvalue="JUnit.FighterTest.canAttack" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,6 +115,14 @@
       <option name="presentableId" value="Default" />
       <updated>1676458113078</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added initial character classes">
+      <created>1676458850541</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676458850541</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -68,5 +135,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added initial character classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added initial character classes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/MagiciansTest.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
