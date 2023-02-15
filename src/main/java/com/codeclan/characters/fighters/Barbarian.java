@@ -1,9 +1,9 @@
 package com.codeclan.characters.fighters;
 
 import com.codeclan.behaviours.IAttack;
-import com.codeclan.characters.AttackItem;
+import com.codeclan.characters.enums.AttackItem;
 import com.codeclan.characters.Character;
-import com.codeclan.characters.WeaponType;
+import com.codeclan.characters.enums.WeaponType;
 
 public class Barbarian extends Character implements IAttack {
 

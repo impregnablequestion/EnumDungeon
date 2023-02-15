@@ -1,9 +1,7 @@
 package com.codeclan.behaviours;
 
-import com.codeclan.characters.AttackItem;
+import com.codeclan.characters.enums.AttackItem;
 import com.codeclan.characters.Character;
-import com.codeclan.characters.SpellType;
-import com.codeclan.characters.WeaponType;
 
 public interface IAttack {
 

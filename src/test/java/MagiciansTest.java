@@ -19,7 +19,8 @@ public class MagiciansTest {
         warlock.attack(warlock.getAttackItem(), wizard);
         wizard.attack(wizard.getAttackItem(), warlock);
 
-        assertEquals(60, warlock.getHealth());
-        assertEquals(60, wizard.getHealth());
+        assertEquals(80, warlock.getHealth());
+        assertEquals(80, wizard.getHealth());
     }
+
 }

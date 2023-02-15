@@ -1,4 +1,4 @@
-package com.codeclan.characters;
+package com.codeclan.characters.enums;
 
 public interface AttackItem {
     int getDamage();

@@ -1,9 +1,10 @@
 package com.codeclan.characters.magicians;
 
 import com.codeclan.behaviours.IAttack;
-import com.codeclan.characters.AttackItem;
+import com.codeclan.characters.enums.AttackItem;
 import com.codeclan.characters.Character;
-import com.codeclan.characters.SpellType;
+import com.codeclan.characters.enums.CreatureType;
+import com.codeclan.characters.enums.SpellType;
 
 import java.util.ArrayList;
 
@@ -11,6 +12,7 @@ public class Warlock extends Character implements IAttack {
 
     private ArrayList<SpellType> spells;
     private SpellType selectedSpell;
+    private CreatureType creature;
 
     public Warlock(String name, int health) {
 
@@ -20,6 +22,8 @@ public class Warlock extends Character implements IAttack {
         spells.add(SpellType.LIGHTNING_STRIKE);
         spells.add(SpellType.FIREBALL);
         this.selectedSpell = spells.get(0);
+        this.creature = CreatureType.DRAGON;
+
     }
 
     @Override
@@ -42,5 +46,13 @@ public class Warlock extends Character implements IAttack {
     public void addSpell(SpellType spellType) {
         spells.add(spellType);
     }
+    @Override
+    public void receiveDamage(int damage){
+        int newDamage = (int)Math.round(damage/creature.getDefenceModifier());
+        this.health -= (newDamage);
+    }
 
+    public void setCreature(CreatureType creature) {
+        this.creature = creature;
+    }
 }

@@ -4,7 +4,7 @@ public abstract class Character {
 
     private String name;
 
-    private int health;
+    protected int health;
 
 
 
@@ -18,5 +18,9 @@ public abstract class Character {
 
     public int getHealth() {
         return health;
+    }
+
+    public void receiveHealing(int healing){
+        this.health += healing;
     }
 }

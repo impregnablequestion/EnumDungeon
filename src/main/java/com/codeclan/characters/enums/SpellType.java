@@ -1,4 +1,4 @@
-package com.codeclan.characters;
+package com.codeclan.characters.enums;
 
 public enum SpellType implements AttackItem {
     FIREBALL(40),
