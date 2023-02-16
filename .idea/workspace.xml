@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f280ced-7fda-48a3-b4c2-4d1dd03b55b9" name="Changes" comment="Got player classes all working">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codeclan/Party.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codeclan/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codeclan/TreasureType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codeclan/characters/enemies/Enemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codeclan/characters/enemies/Orc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codeclan/characters/enemies/Troll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ClericTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RoomTest.java" afterDir="false" />
+    <list default="true" id="2f280ced-7fda-48a3-b4c2-4d1dd03b55b9" name="Changes" comment="Added room class that you can complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeclan/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeclan/characters/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codeclan/characters/Character.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeclan/characters/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codeclan/characters/Cleric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FighterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FighterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeclan/characters/enemies/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codeclan/characters/enemies/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeclan/characters/enemies/Troll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codeclan/characters/enemies/Troll.java" afterDir="false" />
     </list>
     <list id="e1f715c0-6000-463e-b5a0-6bd6472de7a3" name="Changes by codeclanstudent" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,20 +36,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.RoomTest.canCompleteRoomOnceOrcsAreDead">
-    <configuration name="ClericTest.canHealDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="JUnit.All in FantasyLand">
+    <configuration name="All in FantasyLand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyLand" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClericTest" />
-      <option name="METHOD_NAME" value="canHealDamage" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -106,11 +94,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in FantasyLand" />
         <item itemvalue="JUnit.RoomTest.canCompleteRoomOnceOrcsAreDead" />
         <item itemvalue="JUnit.RoomTest.cantCompleteRoomWhenOrcIsStillAlive" />
         <item itemvalue="JUnit.FighterTest.canKill" />
         <item itemvalue="JUnit.ClericTest.willOnlyHealUpToMaxHealth" />
-        <item itemvalue="JUnit.ClericTest.canHealDamage" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676472381199</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added room class that you can complete">
+      <created>1676478055921</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676478055921</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,7 +157,8 @@
     <MESSAGE value="Added initial character classes" />
     <MESSAGE value="Fighters behaviour built, Magicians attack working" />
     <MESSAGE value="Got player classes all working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Got player classes all working" />
+    <MESSAGE value="Added room class that you can complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added room class that you can complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
